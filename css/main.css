@@ -1,0 +1,180 @@
+.dropdown-content li>a, .dropdown-content li>span {
+  color: #3B77BC;
+}
+.buttons__container{
+	  padding-top: 1em;
+}
+.month__year{
+	border-left: 5px solid rgb(10, 26, 44);
+	margin-bottom: 0.75em;
+}
+.ul__fechas .tab a{
+  line-height: 1.5;
+  color: #A1A1A1;
+}
+.ul__fechas .tab a.active{
+  line-height: 1.5;
+  color: #0A1A2C;
+   font-weight: bold;
+}
+.ul__fechas .indicator {
+  height: 4px;
+  background-color: #0A1A2C;
+}
+.ul__fechas .tab a:hover{
+	color:#3B77BC;
+}
+.ul__fechas{
+	margin-bottom: 1em;
+}
+.ul__dark .tab a {
+  color: #FFFFFF;
+}
+.ul__dark .tab a:hover {
+  color: #FFFFFF;
+}
+.ul__dark .tab a:active {
+  color: #3B77BC;
+}
+.ul__dark .indicator {
+  background-color: #3B77BC;
+  height: 0.3em;
+}
+#header__logo{
+  background: url(../img/vision.png) no-repeat left 100%;
+  background-size: cover;
+  width: 236px;
+  height: 62px;
+  display: inline-block;
+}
+#header{
+	background-color: rgb(10,26,44);
+	padding: 1em;
+}
+ul.ul__dark{
+	background-color: rgb(24,24,24);
+}
+.tabs__container{
+	background-color: rgb(24,24,24);
+	  border-top: 2px solid white;
+}
+.actividades {
+  width: 64px;
+  background: url('../font/material-design-icons/icons-01.svg') 0px 0;
+   background-repeat: no-repeat;
+}
+.expositores {
+   width: 66px;
+  background: url('../font/material-design-icons/icons-01.svg') -68px 0;
+  background-repeat: no-repeat;
+}
+.materiales {
+    width: 71px;
+  background: url('../font/material-design-icons/icons-01.svg') -128px 0;
+  background-repeat: no-repeat;
+}
+.fb {
+ width: 31px;
+   background: url('../font/material-design-icons/icons2-01.svg') -6px 0;
+   background-repeat: no-repeat;
+}
+.twitter {
+	width: 31px;
+  background: url('../font/material-design-icons/icons2-01.svg') -47px 0;
+  background-repeat: no-repeat;
+}
+.youtube {
+width: 31px;
+  background: url('../font/material-design-icons/icons2-01.svg') -86px 0;
+  background-repeat: no-repeat;
+
+}
+.flicker {
+  width: 31px;
+  background: url('../font/material-design-icons/icons2-01.svg') -126px 0;
+  background-repeat: no-repeat;
+}
+.icon__container{
+	height: 72px;
+}
+
+.btn-large {
+      height: 115px;
+  line-height: 15px;
+    width: 100%;
+    padding: 0.75em;
+}
+.title__container{
+	  background-color: rgb(10, 26, 44);
+  color: white;
+  padding: 0.75em;
+  text-transform: uppercase;
+    margin-top: 1.25em;
+}
+#inicio{
+	margin:0;
+	padding:0;
+}
+td, th {
+  padding-left: 1.5em;
+}
+ul.social li{
+  border: 5px black;
+  height: 60px;
+	background-color: rgb(24,24,24);
+}
+ul.social>li>p{
+  text-align: center;
+}
+ul.social{
+margin:0;
+}
+footer.page-footer {
+padding-top: 0px; 
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.last{
+	margin-bottom: 4em;
+}
+.comment__active{
+  color: rgb(163, 163, 163);
+}
+.comment__inactive{
+    color: rgb(226, 226, 226);
+}
+.done{
+	color:#26a69a;
+}
+.icon__white{
+	color:white;
+}
+.icon__orange{
+	color: orange;
+}
+.modal {
+  width: 100%;
+  max-height: 100%;
+}
+.btn__suscribirse{
+	  background-color: rgb(10, 26, 44);
+  color: white;
+}
+.modal.modal-fixed-footer {
+  height: 100%;
+}
+.icon__red{
+	color:red;
+}
+@media only screen and (max-width : 370px) {
+	  .btn-large {
+	  font-size: 0.75em;
+	}
+	ul.tabs>li>a{
+		font-size: 0.75em;
+	}
+	table {
+	  font-size: 0.75em;
+	}
+}
