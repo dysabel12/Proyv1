@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/main.css" media="screen,projection"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+ <!-- Modal Structure -->
+  <div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Taller 1</h4>
+      <p>Especialidad - Arquitectura</p>
+      <p>Horario: 10:00 AM - 10:30 AM</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet erat aliquet, pretium nisi quis, aliquet nunc. Proin felis magna, porttitor eget purus ut, pellentesque dictum ipsum. Pellentesque nec vulputate massa, sagittis luctus augue. Nullam elementum sollicitudin lectus, a porttitor ipsum faucibus eget. Sed id dapibus ipsum, quis pulvinar ipsum. Cras condimentum nulla in massa tincidunt, sit amet sagittis metus tristique. Vestibulum maximus leo vitae dictum tincidunt. Curabitur vel faucibus felis. Sed a quam ex. Phasellus sollicitudin gravida nunc a euismod. Donec tempus lectus id nulla efficitur porttitor.</p>
+<p>Aliquam sodales tempus risus, sit amet euismod odio dignissim eu. Sed sit amet tellus malesuada nibh vehicula lacinia. Donec sed lorem venenatis, facilisis ipsum in, maximus quam. Nullam egestas posuere lorem eu posuere. Nam a nisl quam. Sed id lorem arcu. Maecenas sed tellus nec libero sodales dictum sit amet vitae orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      <p>Expositores:</p>
+      <ul><li>García Napurí, Jorge</li>
+      <li>Llanos Quispe, Diana</li></ul>
+    </div>
+    <div class="modal-footer">
+    <a href="#!" class="modal-action modal-close waves-effect grey lighten-2 btn-flat ">Salir</a>
+      <a href="#!" class="modal-action modal-close waves-effect btn-flat btn__suscribirse" onclick="Materialize.toast('Se ha suscrito satisfactoriamente!', 4000)">Suscribirse</a>
+
+    </div>
+  </div>
+
+
+    <div class="row">
+    <div id="header" class="col s12">
+    <div id="header__logo">
+    </div></div>
+    <div class="col s12 tabs__container">
+      <ul class="tabs ul__dark">
+        <li class="tab col s3"><a class="active" href="#inicio">INICIO</a></li>
+        <li class="tab col s3"><a href="#test2">CONCURSO</a></li>
+        <li class="tab col s3"><a href="#test4">NOVEDADES</a></li>
+      </ul>
+    </div>
+    <div id="inicio" class="col s12">
+    <div class="row buttons__container">
+      <div class="col s4">
+        <a href="actividades.html" class="waves-effect waves-light btn-large blue lighten-2"><img class="icon__container actividades" src="http://www.w3schools.com/css/img_trans.gif"/><br>Actividades</a>
+      </div>
+      <div class="col s4">
+        <a class="waves-effect waves-light btn-large pink lighten-2"><img class="icon__container expositores" src="http://www.w3schools.com/css/img_trans.gif"/><br>Expositores</a>
+      </div>
+      <div class="col s4">
+        <a class="waves-effect waves-light btn-large orange lighten-2"><img class="icon__container materiales" src="http://www.w3schools.com/css/img_trans.gif"/><br>Materiales</a>
+      </div>
+    </div>
+    <div class="row title__container">
+      <h6>Actividades recientes</h6>
+     
+    </div>
+    <div class="row">
+    <div class="col s12">
+      <ul class="tabs ul__dark">
+        <li class="tab col s3"><a class="active" href="#taller">Talleres</a></li>
+        <li class="tab col s3"><a href="#seminario">Seminarios</a></li>
+        <li class="tab col s3"><a href="#conferencia">Conferencias</a></li>
+      </ul>
+    </div>
+    <div id="taller" class="col s12">
+
+       <table class="hoverable">
+        <thead>
+          <tr>
+              <th data-field="nombre">Nombre</th>
+              <th data-field="ambiente">Ambiente</th>
+              <th data-field="horario">Horario</th>
+              <th data-field="option"></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Taller 1</td>
+            <td>01-202</td>
+            <td>10:00 A.M.</td>
+            <td><a class="modal-trigger" href="#modal1"><i class="smal material-icons comment__active">zoom_in</i></a></td>
+          </tr>
+          <tr>
+            <td>Taller 2</td>
+            <td>01-201</td>
+            <td>10:00 A.M.</td>
+            <td><a class="modal-trigger" href="#modal1"><i class="smal material-icons comment__active">zoom_in</i></a></td>
+          </tr>
+          <tr>
+            <td>Taller 3</td>
+            <td>01-203</td>
+            <td>10:00 A.M.</td>
+            <td><a class="modal-trigger" href="#modal1"><i class="smal material-icons comment__active">zoom_in</i></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="seminario" class="col s12">
+        <table class="hoverable">
+        <thead>
+          <tr>
+              <th data-field="nombre">Nombre</th>
+              <th data-field="ambiente">Ambiente</th>
+              <th data-field="horario">Horario</th>
+              <th data-field="option"></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Seminario 1</td>
+            <td>01-202</td>
+            <td>10:00 A.M.</td>
+            <td><a class="modal-trigger" href="#modal1"><i class="smal material-icons comment__active">zoom_in</i></a></td>
+          </tr>
+          <tr>
+            <td>Seminario 2</td>
+            <td>01-201</td>
+            <td>10:00 A.M.</td>
+            <td><a class="modal-trigger" href="#modal1"><i class="smal material-icons comment__active">zoom_in</i></a></td>
+          </tr>
+          <tr>
+            <td>Seminario 3</td>
+            <td>01-203</td>
+            <td>10:00 A.M.</td>
+            <td><a class="modal-trigger" href="#modal1"><i class="smal material-icons comment__active">zoom_in</i></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="conferencia" class="col s12">
+      <table class="hoverable">
+        <thead>
+          <tr>
+              <th data-field="nombre">Nombre</th>
+              <th data-field="ambiente">Ambiente</th>
+              <th data-field="horario">Horario</th>
+              <th data-field="option"></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Conferencia 1</td>
+            <td>01-202</td>
+            <td>10:00 A.M.</td>
+            <td><a class="modal-trigger" href="#modal1"><i class="smal material-icons comment__active">zoom_in</i></a></td>
+          </tr>
+          <tr>
+            <td>Conferencia 2</td>
+            <td>01-201</td>
+            <td>10:00 A.M.</td>
+            <td><a class="modal-trigger" href="#modal1"><i class="smal material-icons comment__active">zoom_in</i></a></td>
+          </tr>
+          <tr>
+            <td>Conferencia 3</td>
+            <td>01-203</td>
+            <td>10:00 A.M.</td>
+            <td><a class="modal-trigger" href="#modal1"><i class="smal material-icons comment__active">zoom_in</i></a></td>
+          </tr>
+        </tbody>
+      </table>
+
+
+    </div>
+  </div>
+        
+
+
+
+
+
+
+      <div class="row title__container">
+      <h6>Actividades suscritas</h6>
+     
+    </div>
+    <div class="row last">
+    <div class="col s12">
+      <ul class="tabs ul__dark">
+        <li class="tab col s3"><a class="active" href="#taller1">Talleres</a></li>
+        <li class="tab col s3"><a href="#seminario1">Seminarios</a></li>
+        <li class="tab col s3"><a href="#conferencia1">Conferencias</a></li>
+      </ul>
+    </div>
+    <div id="taller1" class="col s12">
+
+       <table class="hoverable">
+        <thead>
+          <tr>
+              <th data-field="nombre">Nombre</th>
+              <th data-field="ambiente">Ambiente</th>
+              <th data-field="horario">Horario</th>
+              <th data-field="option"></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Taller 1</td>
+            <td>01-202</td>
+            <td>08:00 A.M.</td>
+            <td> <i class="smal material-icons comment__active">comment</i>
+            <i class="smal material-icons done">done</i>
+            </td>
+          </tr>
+          <tr>
+            <td>Taller 2</td>
+            <td>01-201</td>
+            <td>10:00 A.M.</td>
+            <td> <i class="smal material-icons comment__inactive">comment</i>
+            <i class="smal material-icons done">alarm_on</i>
+            </td>
+          </tr>
+          <tr>
+            <td>Taller 3</td>
+            <td>01-203</td>
+            <td>10:00 A.M.</td>
+            <td> <i class="smal material-icons comment__inactive">comment</i>
+            <i class="material-icons icon__red">close</i>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="seminario1" class="col s12">
+        <table class="hoverable">
+        <thead>
+          <tr>
+              <th data-field="nombre">Nombre</th>
+              <th data-field="ambiente">Ambiente</th>
+              <th data-field="horario">Horario</th>
+              <th data-field="option"></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Seminario 1</td>
+            <td>01-202</td>
+            <td>11:00 A.M.</td>
+            <td> <i class="smal material-icons comment__active">comment</i>
+            <i class="smal material-icons icon__orange">access_time</i>
+            </td>
+          </tr>
+          <tr>
+            <td>Seminario 2</td>
+            <td>01-201</td>
+            <td>11:00 A.M.</td>
+            <td> <i class="smal material-icons comment__active">comment</i>
+            <i class="smal material-icons icon__orange">access_time</i>
+            </td>
+          </tr>
+          <tr>
+            <td>Seminario 3</td>
+            <td>01-203</td>
+            <td>11:00 A.M.</td>
+            <td> <i class="smal material-icons comment__active">comment</i>
+            <i class="smal material-icons icon__orange">access_time</i>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="conferencia1" class="col s12">
+      <table class="hoverable">
+        <thead>
+          <tr>
+              <th data-field="nombre">Nombre</th>
+              <th data-field="ambiente">Ambiente</th>
+              <th data-field="horario">Horario</th>
+              <th data-field="option"></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Conferencia 1</td>
+            <td>01-202</td>
+            <td>10:00 A.M.</td>
+            <td> <i class="smal material-icons comment__active">comment</i>
+              <i class="smal icon__orange material-icons">access_time</i>
+            </td>
+          </tr>
+          <tr>
+            <td>Conferencia 2</td>
+            <td>01-201</td>
+            <td>10:00 A.M.</td>
+            <td> <i class="smal material-icons comment__active">comment</i>
+              <i class="smal icon__orange material-icons">access_time</i>
+            </td>
+          </tr>
+          <tr>
+            <td>Conferencia 3</td>
+            <td>01-203</td>
+            <td>10:00 A.M.</td>
+            <td> <i class="smal material-icons comment__active">comment</i>
+              <i class="smal icon__orange material-icons">access_time</i>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+
+    </div>
+  </div>
+        
+
+
+
+    </div>
+    <div id="test2" class="col s12">Test 2</div>
+    <div id="test4" class="col s12">Test 4</div>
+  </div>
+      <footer class="page-footer">
+          <ul class="row social">
+            <li class="col s3"><p><img class="fb" style="width:31px; text-align:center;" src="http://www.w3schools.com/css/img_trans.gif"/></p></li>
+            <li class="col s3"><p><img class="twitter" style="width:31px; text-align:center;" src="http://www.w3schools.com/css/img_trans.gif"/></p></li>
+            <li class="col s3"><p><img class="youtube" style="width:31px; text-align:center;" src="http://www.w3schools.com/css/img_trans.gif"/></p></li>
+            <li class="col s3"><p><img class="flicker" style="width:31px; text-align:center;" src="http://www.w3schools.com/css/img_trans.gif"/></p></li>
+          </ul>
+        </footer>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });
+      
+      </script>
+    </body>
+  </html>
+        
